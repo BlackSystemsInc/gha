@@ -1,0 +1,39 @@
+"targets","layer","name","description","fld_value","units","clip_n_ship_disag","clip_n_ship_disag_description","filename","fld_id_num","fld_id_chr","fld_category","fld_year","fld_val_num","fld_val_chr","file_exists","year_min","year_max","val_min","val_max","val_0to1","flds_unused","flds_missing","rows_duplicated","num_ids_unique","data_na"
+"MAR","mar_harvest_tonnes","Mariculture harvest","Mariculture harvest from the FAO. 
+
+Data sources:
+
+- [FAO global aquaculture production](http://www.fao.org/fishery/statistics/global-aquaculture-production/en)","tonnes","tons","area_offshore_3nm","global mariculture harvest (tonnes) data were applied to each region after weighting by each region's offshore area to 3nm. ","mar_harvest_tonnes_global2014.csv","rgn_id",,"species_code","year","tonnes",,TRUE,Inf,-Inf,,,FALSE,,,,4,TRUE
+"MAR","mar_sustainability_score","Mariculture sustainability score","Mariculture sustainability and mariculture regulations indicated by the Mariculture Sustainability Index (MSI). 
+
+Data sources:
+
+- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","sust_coeff","sustainability","equal","global mariculture sustainability scores were applied equally to each region.","mar_sustainability_score_global2014.csv","rgn_id",,"species",,"sust_coeff",,TRUE,,,,,FALSE,,,,4,TRUE
+"MAR","mar_trend_years","Mariculture years used for trend","Mariculture years used for trend","trend_yrs","year string","equal","global trends were applied equally to each region.","mar_trend_years_global2014.csv","rgn_id",,,,"trend_yrs",,TRUE,,,,,FALSE,,,,4,TRUE
+"NP","np_blast","Areas of observed blast (dynamite) fishing","The presence of destructive artisanal blast fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
+","score","pressure score","equal","global scores were applied equally to each region. ","np_blast_global2014.csv","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,4,TRUE
+"NP","np_cyanide","Areas of observed poison fishing","The presence of destructive artisanal poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
+","score","pressure score","equal","global scores were applied equally to each region. ","np_cyanide_global2014.csv","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,4,TRUE
+"pressures","fp_art_hb","High bycatch caused by artisanal fishing ","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","equal","global pressures data were applied equally to all regions.","fp_art_hb_global2014.csv","rgn_id",,,,"pressures.score",,TRUE,,,,,FALSE,,,,4,TRUE
+"pressures","hd_subtidal_hb","High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","value","pressure score","equal","global pressures data were applied equally to all regions.","hd_subtidal_hb_global2014.csv","rgn_id",,,,"value",,TRUE,,,,,FALSE,,,,4,TRUE
+"resilience","msi_gov"," MSI sustainability and regulations","Mariculture practice assessment criteria from the Mariculture Sustainability Index (MSI). 
+
+Data sources:
+
+- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","resilience score","resilience score","equal","global resilience data were applied equally to all regions.","msi_gov_global2014.csv","rgn_id",,,,"resilience.score",,TRUE,,,,,FALSE,,,,4,TRUE
