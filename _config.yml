@@ -11,9 +11,9 @@ study_area:  Ghana
 git_owner:   OHI-Science
 git_repo:    gha
 git_slug:    OHI-Science/gha
-app_url:     https://ohi-science.shinyapps.io/gha_app
+app_url:     http://ohi-science.nceas.ucsb.edu/gha
 
-default_branch_scenario: published/subcountry2014
+default_branch_scenario: subcountry2014/published
 
 # Jekyll configuration
 
