@@ -4,8 +4,8 @@ branches:
   - draft
 env:
   global:
-  - default_branch_scenario="published/subcountry2014"
-  - study_area="Ghana"
+  - default_branch_scenario: "published/subcountry2014"
+  - study_area: "Ghana"
   - secure: bxUQxjzBsAxI7pfkfB73UDRvsk5zDGLvOrTgsSwUps40jFnHM/3CIOI1KoTKwDO/Osmq17lK0/dlhixBjsoOB2aeJVOSn9XnLqynBcNAxX2077JUdixM8PDxtLqueTM2K1Jv2/YZ9Ps2W/THna4dvrKPXfTapTpW4Qi0uitQwiQ=
 matrix:
   fast_finish: true
